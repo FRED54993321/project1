@@ -1,0 +1,62 @@
+.main{
+
+
+	width:100%;
+	height:100vh;
+	postion: relative;
+	overflow: hidden;
+	background: linear-gradient(to rigth,#9c27b0,#8ecdff);
+}
+.navbar{
+	width:88%;
+	margin: auto;
+	padding:15px 0;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+}
+.navbar ul li{
+	list-style:none;
+	display: inline-block;
+	margin:0 15px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color:#5f5f5f;
+	font-size:15px;
+}
+.content{
+	width:100%;
+	position: absolute;
+	top: 30%;
+}
+.left-col h1{
+	font-size: 90px;
+	color: #fff;
+	line-break: 110px;
+	float: left;
+}
+#fred{
+	width: 70px;
+	height: 70px;
+	cursor:pointer ;
+}
+.right-col{
+	margin-right: 6%;
+	margin-top: 120px;
+	display:flex;
+	align-items: center;
+	color: #5f5f5f;
+	float:right ;
+
+}
+.right-col p{
+	font-size: 18px;
+	color: #5f5f5f;
+	font-weight: 400;
+	margin-right: 15px;
+}
+
+#mySong{
+	padding-top: 25%;
+    padding-left: 270px}
